@@ -1,0 +1,61 @@
+html, body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
+.navbar {
+	margin-bottom: 0;
+}
+
+.myth-box{
+	height: 900px;
+	background-image: url(https://www.teetravel.com/voyages-golf/chypre/assets/images/chypre-ruines-medievales-pierres-arc-voute-mer-construction-moyen-age-histoire-historique-1-1920x1080.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100vh;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+
+.myth-bar {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background-color: rgba(211,211,211,0.3);
+	text-align: center;
+	font-size: 32px;
+}
+
+.myth-bar a{
+	color: #fff;
+}
+
+.myth-bar ul{
+	padding: 0;
+	list-style: none;
+}
+
+.myth-bar li{
+	display: inline;
+	padding: 50px;
+	margin: 50px;
+
+}
+
+.showcase{
+	padding: 0;
+	height: 300px;
+}
+
+.showcase h1{
+	text-align: center;
+}
+
+.page-footer{
+	padding: 5px 0;
+	font-size: 16px;
+	background-color: rgba(211,211,211,0.3);
+	text-align: right;
+	margin: 0;
+}
