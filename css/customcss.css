@@ -9,7 +9,7 @@ html, body {
 
 .myth-box{
 	height: 900px;
-	background-image: url(https://www.teetravel.com/voyages-golf/chypre/assets/images/chypre-ruines-medievales-pierres-arc-voute-mer-construction-moyen-age-histoire-historique-1-1920x1080.jpg);
+	background-image:url(../Images/background.jpg); 
 	background-repeat: no-repeat;
 	background-size: 100% 100vh;
 	padding: 0;
