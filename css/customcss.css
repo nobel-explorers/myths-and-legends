@@ -5,7 +5,7 @@ html, body {
 
 
 .navbar {
-	background-color: rgba(211,211,211,0.3);
+	background-color: rgba(192,166,133,0.3);
 	border-color: #000;
 	width: 100%;
 }	
@@ -22,7 +22,7 @@ html, body {
 }
 
 .form-control{
-	background-color: rgba(211,211,211,0.3);
+	background-color: rgba(255,255,255,0.3);
 }
 
 .myth-box{
@@ -40,7 +40,7 @@ html, body {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	background-color: rgba(211,211,211,0.3);
+	background-color: rgba(192,166,133,0.3);
 	text-align: center;
 	font-size: 36px;
 	padding: 10px 0;
@@ -48,38 +48,61 @@ html, body {
 }
 
 .myth-bar a{
-	color: #fff;
+	color: #F7E4DD;
 }
 
 .showcase{
 	padding: 0;
 	height: 300px;
+	background-color: #D6D4C7;
+}
+
+.showcase2{
+	background-color: #C3C2B0;
 }
 
 .showcase h1{
 	text-align: center;
+	color: #000;
 }
 
-.myth-icon{
-	background-image:url(https://dcnetworks.ie/wp/wp-content/uploads/2017/11/placeholder-logo-2.png); 
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
+.showcase a{
+	color: #000;
+}
+
+.circletag {
+	background-color: #E8D2C4;
+	overflow: auto;
 	margin: auto;
-	border: 1px solid black;
-	border-radius: 100%;
-	height: 150px;
+    width: 150px;
+    height: 150px;
+    align-content: center;
+    border: 5px solid black;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.circletag img {
+  	max-height: 100%;
+  	max-width: 100%;
+}
+
+.col-md-3 a{
 	width: 150px;
+    height: 150px;
 }
 
 .page-footer{
 	padding: 10px 0;
 	font-size: 16px;
-	background-color: rgba(211,211,211,0.3);
+	background-color: #DCC1A3;
 	text-align: right;
 	margin: 0;
 }
 
 .page-footer a{
+	color: #000;
+	font-weight: bold;
 	padding-right: 20px;
 }
