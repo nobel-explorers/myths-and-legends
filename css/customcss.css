@@ -4,9 +4,11 @@ html, body {
     }
 
 .navbar {
-	margin-bottom: 0;
-	color:transparent;
-    opacity:0.3;}
+	background-color: rgba(211,211,211,0.3);
+	border-color: #000;
+	width: 100%;
+	color: yellow;
+}	
 
 .myth-box{
 	height: 900px;
@@ -25,23 +27,11 @@ html, body {
 	width: 100%;
 	background-color: rgba(211,211,211,0.3);
 	text-align: center;
-	font-size: 24px;
+	font-size: 36px;
 }
 
 .myth-bar a{
 	color: #fff;
-}
-
-.myth-bar ul{
-	padding: 0;
-	list-style: none;
-}
-
-.myth-bar li{
-	display: inline;
-	padding: 50px;
-	margin: 50px;
-
 }
 
 .showcase{
@@ -54,9 +44,13 @@ html, body {
 }
 
 .page-footer{
-	padding: 5px 0;
+	padding: 10px 0;
 	font-size: 16px;
 	background-color: rgba(211,211,211,0.3);
 	text-align: right;
 	margin: 0;
+}
+
+.page-footer a{
+	padding-right: 20px;
 }
