@@ -2,22 +2,36 @@ html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
-background-color: #858585;
-background-image: url("https://www.transparenttextures.com/patterns/church.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
 .navbar {
-	margin-bottom: 0;
-	color:transparent;
-    opacity:0.3;}
+	background-color: rgba(192,166,133,0.3);
+	border-color: #000;
+	width: 100%;
+}	
+
+.navbar-default .navbar-nav>li>a{
+	color: #000 solid;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.navbar-brand{
+	color: #000;
+	font-weight: bold;
+}
+
+.form-control{
+	background-color: rgba(255,255,255,0.3);
+}
 
 .myth-box{
-	height: 900px;
+	height: 100vh;
 	background-image:url(../Images/background.jpg); 
 	background-repeat: no-repeat;
-	background-size: 100% 100vh;
 	padding: 0;
 	margin: 0;
-	position: relative;
+	background-size: cover;
+	background-position: center;
 }
 
 
@@ -25,40 +39,69 @@ background-image: url("https://www.transparenttextures.com/patterns/church.png")
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	background-color: rgba(211,211,211,0.3);
+	background-color: rgba(192,166,133,0.3);
 	text-align: center;
-	font-size: 24px;
+	font-size: 36px;
+	padding: 10px 0;
+	margin-left: 0;
 }
 
 .myth-bar a{
-	color: #fff;
-}
-
-.myth-bar ul{
-	padding: 0;
-	list-style: none;
-}
-
-.myth-bar li{
-	display: inline;
-	padding: 50px;
-	margin: 50px;
-
+	color: #F7E4DD;
 }
 
 .showcase{
 	padding: 0;
 	height: 300px;
+	background-color: #D6D4C7;
+}
+
+.showcase2{
+	background-color: #C3C2B0;
 }
 
 .showcase h1{
 	text-align: center;
+	color: #000;
+}
+
+.showcase a{
+	color: #000;
+}
+
+.circletag {
+	background-color: #E8D2C4;
+	overflow: auto;
+	margin: auto;
+    width: 150px;
+    height: 150px;
+    align-content: center;
+    border: 5px solid black;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+}
+
+.circletag img {
+  	max-height: 100%;
+  	max-width: 100%;
+}
+
+.col-md-3 a{
+	width: 150px;
+    height: 150px;
 }
 
 .page-footer{
-	padding: 5px 0;
+	padding: 10px 0;
 	font-size: 16px;
-	background-color: rgba(211,211,211,0.3);
+	background-color: #DCC1A3;
 	text-align: right;
 	margin: 0;
+}
+
+.page-footer a{
+	color: #000;
+	font-weight: bold;
+	padding-right: 20px;
 }
