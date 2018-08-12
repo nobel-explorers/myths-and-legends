@@ -2,9 +2,7 @@ html, body {
         max-width: 100%;
         overflow-x: hidden;
     }
-background-color: #858585;
-background-image: url("https://www.transparenttextures.com/patterns/church.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
 .navbar {
 	margin-bottom: 0;
 	color:transparent;
