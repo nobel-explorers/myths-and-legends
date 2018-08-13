@@ -140,3 +140,52 @@ html, body {
 	padding-right:20px;
 
 }
+.main{
+	color:black;
+	padding:30px;
+}
+
+.team{
+	color:orange;
+}
+
+
+	
+.image{
+	
+	padding-left:150px
+	
+}
+.story{
+ display:center;
+ font-size:25px;
+ font-family:justify;
+ 
+}
+
+.story h4{
+	font-family:italic;
+	font-size:30px;
+	padding:5px;
+	
+
+}
+.col-md-4{
+	padding-left:100px;
+	
+	
+}
+.col-md-4 h3{
+  padding-left:100px;
+
+}
+.col-md-4 p{
+	width:50.3%;
+}
+
+.col-md-6 h3{
+	padding-left:150px;
+}
+.col-md-6 p{
+	width:60.3%;
+}
