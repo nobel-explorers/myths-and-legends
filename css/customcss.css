@@ -150,16 +150,18 @@ html, body {
 }
 
 
-	
+
+
 .image{
-	
-	padding-left:150px
+
+ padding-left:150px
 	
 }
 .story{
  display:center;
  font-size:25px;
  font-family:justify;
+ width:40%;
  
 }
 
@@ -175,15 +177,17 @@ html, body {
 	
 	
 	
-	
+
 }
+
 .col-md-4 h3{
-  padding-left:100px;
+  padding-left:30px;
 
 }
 .col-md-4 p{
 	width:50.3%;
 	font-size:20px;
+	
 }
 
 .col-md-6 h3{
@@ -192,4 +196,17 @@ html, body {
 .col-md-6 p{
 	width:50.3%;
 	font-size:20px;
+	
 }
+
+.col-md-4 img{
+	width:150px;
+	
+}
+ .diff{
+	width:150px;
+	
+}
+
+
+
