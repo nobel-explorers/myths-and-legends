@@ -4,20 +4,21 @@ html, body {
     }
 
 .navbar {
-	background-color: rgba(192,166,133,0.3);
-	border-color: #000;
+	font-family: 'Open Sans', sans-serif;
+	background-color: rgba(220,195,166,0.5);
+	border: none;
 	width: 100%;
 	margin-bottom:0;
 }	
 
 .navbar-default .navbar-nav>li>a{
-	color: #000 solid;
+	color: #4a2c25;
 	font-weight: bold;
 	font-size: 16px;
 }
 
-.navbar-brand{
-	color: #000;
+.navbar-default .navbar-brand{
+	color: #4a2c25;
 	font-weight: bold;
 }
 
@@ -48,12 +49,13 @@ html, body {
 
 
 .myth-bar {
+	font-family: 'Tenor Sans', sans-serif;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
 	background-color: rgba(192,166,133,0.3);
 	text-align: center;
-	font-size: 36px;
+	font-size: 27px;
 	padding: 10px 0;
 	margin-left: 0;
 }
@@ -83,7 +85,6 @@ html, body {
 
 .showcase{
 	padding: 0;
-	height: 300px;
 	background-color: #D6D4C7;
 }
 
