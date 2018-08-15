@@ -209,22 +209,33 @@ html, body {
     box-sizing: border-box;
 }
 
-.container img {
+.article-icon img {
     width: 400px;
-    height: 375px;
+    height: 300px;
     align-content:left;
+    padding-left:80px;
 
 }
+.article-title 
+{position:relative;}
 
-.div p
-h1 {
-	
-    text-align: center;
+.article-title h1 {
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:240px;
+	left:270px;
 }
 
-h4 {
-    text-align: center;
+.article-title h4 {
+	padding:0;
+	margin:0;
+	position:absolute;
+	top:210px;
+	left:270px;
+    
 }
+
 
  .diff{
 	width:150px;
