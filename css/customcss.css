@@ -200,14 +200,22 @@ html, body {
 
 }
 .main{
+	font-size:50px;
 	color:#550a0a;
 	padding:30px;
 	text-align:center;
 	font-family:'Tenor Sans', sans-serif;
+
+	
 }
 
 .team{
 	color:orange;
+	
+}
+.collage{
+	background-color:#dcc3a6;
+	
 	
 }
 
@@ -222,9 +230,11 @@ html, body {
 }
 .story{
  display:center;
- font-size:25px;
+ font-size:20px;
  font-family:justify;
  width:40%;
+ padding-top:80px;
+ padding-left:30px;
  
 }
 
@@ -243,9 +253,19 @@ html, body {
 }
 */
 
-	
-	
+	.team1{
+		background-image: url(../Images/intro-bgd.jpg); 
+		
+		
 
+
+	}
+	.team2{
+		background-image: url(../Images/ma-bgd.jpg);
+	}
+    .team3{
+		background-image: url(../Images/aa-bgd.jpg);
+	}
 
 
 .col-md-4 h3{
