@@ -25,6 +25,18 @@ html, body {
 .form-control{
 	background-color: rgba(255,255,255,0.3);
 }
+
+
+@media (max-width: 768px) {
+	.myth-logo {
+		max-width: 50%;
+		position: absolute;
+		right: 100px;
+	}
+}
+
+
+
 .article-background {
 	height:1000px;
 	background-color :#858585;
@@ -67,7 +79,7 @@ html, body {
 .myth-intro{
 	padding: 0;
 	margin: 0;
-	background-color: #D3BE9F; 
+	background-image: url(../Images/intro-bgd.jpg); 
 }
 
 .myth-intro h2{
@@ -85,11 +97,11 @@ html, body {
 
 .showcase{
 	padding: 0;
-	background-color: #D6D4C7;
+	background-image: url(../Images/ma-bgd.jpg); 
 }
 
 .showcase2{
-	background-color: #C3C2B0;
+	background-image: url(../Images/aa-bgd.jpg);
 }
 
 .showcase h1{
@@ -115,8 +127,9 @@ html, body {
 }
 
 .circletag img {
-  	max-height: 100%;
-  	max-width: 100%;
+	margin: 5%;
+  	max-height: 90%;
+  	max-width: 90%;
 }
 
 .col-md-3 a{
@@ -178,12 +191,12 @@ html, body {
 
 }
 
-.col-md-4{
-	padding-left:30px;
+/*.col-md-4{
+
 	
 	
 }
-
+*/
 
 	
 	
