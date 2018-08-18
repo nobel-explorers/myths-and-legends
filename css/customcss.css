@@ -3,6 +3,34 @@ html, body {
         overflow-x: hidden;
     }
 
+
+
+
+@media (max-width: 768px) {
+	.myth-logo {
+		max-width: 50%;
+		position: absolute;
+		right: 100px;
+	}
+
+    .myth-intro h2{
+    	padding: 0 5%;
+    	text-align: center;
+    }
+
+    .myth-intro p{
+    	text-align: center !important;
+    	font-size: 20px !important;
+    	margin: 5% !important;
+    }
+}
+
+@media (max-width: 420px) {
+	.myth-intro p{
+		display: none !important;
+	}
+}
+
 .navbar {
 	font-family: 'Open Sans', sans-serif;
 	background-color: rgba(220,195,166,0.5);
@@ -14,7 +42,7 @@ html, body {
 .navbar-default .navbar-nav>li>a{
 	color: #4a2c25;
 	font-weight: bold;
-	font-size: 16px;
+	font-size: 18px;
 }
 
 .navbar-default .navbar-brand{
@@ -22,20 +50,13 @@ html, body {
 	font-weight: bold;
 }
 
-.form-control{
+.form-control {
 	background-color: rgba(255,255,255,0.3);
 }
 
-
-@media (max-width: 768px) {
-	.myth-logo {
-		max-width: 50%;
-		position: absolute;
-		right: 100px;
-	}
+.glyphicon-search {
+	color: rgba(74,44,37,0.6);
 }
-
-
 
 .article-background {
 	height:1000px;
@@ -46,9 +67,11 @@ html, body {
 	padding:0; 
 	margin-bottom:0; 
 }
+
 .article-background p {
 	margin:0;
 }
+
 .myth-box{
 	height: 100vh;
 	background-image:url(../Images/background.jpg); 
@@ -59,13 +82,12 @@ html, body {
 	background-position: center;
 }
 
-
 .myth-bar {
 	font-family: 'Tenor Sans', sans-serif;
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	background-color: rgba(192,166,133,0.3);
+	background-color: rgba(74,44,37,0.6);
 	text-align: center;
 	font-size: 27px;
 	padding: 10px 0;
@@ -73,7 +95,7 @@ html, body {
 }
 
 .myth-bar a{
-	color: #F7E4DD;
+	color: #dcc3a6;
 }
 
 .myth-intro{
@@ -83,19 +105,25 @@ html, body {
 }
 
 .myth-intro h2{
+	font-family: 'Open Sans', sans-serif;
+	color: #4a2c25;
 	text-align: center;
 	font-weight: bold;
 	margin: 30px 0;
 }
 
 .myth-intro p{
+	color: #4a2c25;
 	text-align: justify;
+	font-family: 'Open Sans', sans-serif;
 	font-style: italic;
-	font-size: 20px;
-	margin: 30px 40px;
+	font-size: 22px;
+	margin: 30px 60px;
+	margin-bottom: 40px;
 }
 
 .showcase{
+	text-align: center;
 	padding: 0;
 	background-image: url(../Images/ma-bgd.jpg); 
 }
@@ -105,22 +133,35 @@ html, body {
 }
 
 .showcase h1{
+	font-family: 'Tenor Sans', sans-serif;
 	text-align: center;
-	color: #000;
+	color: #4a2c25;
+	display: inline-block;
+	border-top: 4px solid #4a2c25;
+	border-bottom: 4px solid #4a2c25;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-bottom: 25px;
+
+}
+
+.showcase h1>a:hover {
+	text-decoration: none;
 }
 
 .showcase a{
-	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	color: #4a2c25;
 }
 
 .circletag {
-	background-color: #E8D2C4;
+	background-color: #e6d7c5;
 	overflow: auto;
 	margin: auto;
     width: 150px;
     height: 150px;
     align-content: center;
-    border: 5px solid black;
+    border: 5px solid #4a2c25;
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
@@ -132,6 +173,10 @@ html, body {
   	max-width: 90%;
 }
 
+.myth-icon-text{
+	font-size: 20px;
+}
+
 .col-md-3 a{
 	width: 150px;
     height: 150px;
@@ -141,15 +186,15 @@ html, body {
 	
 	width:100%;
 	padding: 10px 0;
-	font-size: 16px;
-	background-color: #DCC1A3;
+	font-size: 18px;
+	background-color: #dcc3a6;
 	text-align: right;
 	margin: 0;
 }
 
 .page-footer a{
-
-	color: #000;
+	font-family: 'Open Sans', sans-serif;
+	color: #4a2c25;
 	font-weight: bold;
 	padding-right:20px;
 
