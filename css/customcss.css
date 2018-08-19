@@ -210,7 +210,7 @@ html, body {
 }
 
 .team{
-	color:orange;
+	color:#31081F;
 	font-family: 'cinzel';
 	
 	text-align:center;
@@ -239,6 +239,7 @@ html, body {
  display:center;
  font-size:17px;
  font-family:'open sans';
+ color:#31081F;
  
  
 
@@ -252,6 +253,7 @@ html, body {
 	font-size:30px;
 	padding:5px;
 	font-family:'Cinzel';
+	
 	
 
 }
@@ -283,6 +285,7 @@ html, body {
 	width:60.3%;
 	margin:auto;
 	padding-top:10px;
+	color:#31081F;
 	
 	
 	
@@ -299,6 +302,7 @@ html, body {
 	padding-bottom:10px;
 	font-family:'Raleway';
 	font-style:italic;
+	color:#31081F;
 	
 	
 	
