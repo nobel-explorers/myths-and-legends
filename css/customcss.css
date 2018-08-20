@@ -10,7 +10,8 @@ html, body {
 	.myth-logo {
 		max-width: 50%;
 		position: absolute;
-		right: 100px;
+		right: 25%;
+		top: 100px;
 	}
 
     .myth-intro h2{
