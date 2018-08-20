@@ -212,12 +212,18 @@ html, body {
 .team{
 	color:#31081F;
 	font-family: 'cinzel';
-	
+	text-decoration-line: underline;
+	padding-bottom:20px;
 	text-align:center;
 	
+	
+	
 }
+
+
 .collage{
-	background-color:#dcc3a6;
+	background-color: #dcc3a6;
+	border-bottom:10px solid white;
 	
 	
 }
@@ -267,16 +273,18 @@ html, body {
 
 	.team1{
 		background-image: url(../Images/intro-bgd.jpg); 
-		
+		border-bottom:10px solid white;
 		
 
 
 	}
 	.team2{
 		background-image: url(../Images/ma-bgd.jpg);
+		border-bottom:10px solid white;
 	}
     .team3{
 		background-image: url(../Images/aa-bgd.jpg);
+		
 	}
 
 
